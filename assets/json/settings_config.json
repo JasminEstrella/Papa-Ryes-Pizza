@@ -1,0 +1,12 @@
+{
+    "navigation": {
+        "dashboard": "Dashboard",
+        "manage-orders": "Manage Orders",
+        "view-orders": "View Orders",
+        "products-settings": "Product List",
+        "create-product": "Add Product",
+        "product-tags": "Hot Products", 
+        "customers": "Customers",
+        "promos": "Promos"
+    }
+}
