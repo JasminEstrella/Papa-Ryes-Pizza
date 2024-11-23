@@ -1,0 +1,149 @@
+.error {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.success {
+    padding: 20px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.category-text:hover {
+    color: white;
+    text-decoration: underline;
+
+}
+
+.category-text {
+    margin: 5px;    
+}
+
+.side-nav {
+    margin-top: 80px;
+}
+
+.header-area .main-nav .logo{
+    color: white;
+}
+
+.logo-header {
+    float: left;
+}
+
+.greet-text {
+    cursor: auto;
+}
+
+
+.settings .logo {
+    /* line-height: 80px; */
+    margin: 20px auto;
+    color: #fff;
+    font-size: 29px;
+    font-weight: 800;
+    text-transform: uppercase;
+    float: left;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .settings .logo em {
+    font-style: normal;
+    color: #ed563b;
+    font-weight: 900;
+    line-height: 30px;
+  }
+
+  .settings .greeting-text {
+    color: aquamarine;
+  }
+
+  .settings .bg-dark {
+    width: 100px;
+  }
+
+  .settings-nav.active {
+    color: white;
+  }
+
+  /* .settings .tab-content {
+    display: none;
+  } */
+  .settings .tab-content.active {
+    display: block;
+  }
+
+  .settings .add-product-btn {
+    float: right;
+  }
+
+  form#add-products input,
+  form#add-products select,
+  form#add-products textarea
+  {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    font-size: 15px;
+    color: gray;
+    padding: 5px;
+  }
+
+  
+  form#add-products textarea {
+    
+    height: 60px;
+  }
+
+  form#add-products div.row {
+    margin: 15px 3px;
+  }
+
+  .settings table.table td a {
+    cursor: pointer;
+  }
+
+  .settings table.table td a.edit {
+      color: #0916a9;
+  }
+
+  .settings table.table td a.delete {
+      color: #E34724;
+  }
+
+  .settings table.table td a.view {
+    color: #9bab0b;
+}
+  .settings table {
+    margin: 25px 0;
+  }
+
+  .settings .table-responsive {
+    max-height:550px;
+  }
+
+  .settings .manage-orders table td.total-price {
+    font-weight: 600;
+  }
+
+  .settings .manage-orders .modal-body p {
+    font-size: 16px;
+  }
+  .settings .manage-orders .modal-body p span{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+
+  /* .image-container {
+    
+    justify-content: center;
+    display: flex;
+  } */
+  .detail-image {
+    height: 550px;
+  }
